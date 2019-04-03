@@ -4,7 +4,7 @@ nav{
   line-height: 110px;
   text-transform: uppercase;
 }
-.col-md-4 a{
+nav .col-md-4 a{
   font-size:30px;
   font-weight: bold;
   color:white;
@@ -92,7 +92,45 @@ input{
   border-top:none;
   border-left:none;
   border-right:none;
+  height: 100px;
+  width: 100%;
 }
 .contact hr{
   border-bottom:5px solid #2c3e50;
+}
+button{
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 20px 40px;
+  background-color: #18bc9c;
+  color: white;
+  margin-top: 30px;
+}
+footer{
+  background-color: #2c3e50;
+  color:white;
+}
+footer span{
+  color:#18bc9c;
+}
+footer ul li a{
+  border:1px solid white;
+  border-radius: 50%;
+  padding:5px;
+}
+footer i{
+  width: 100%;
+  height: auto;
+}
+footer i:hover{
+  background-color: white;
+  text-decoration: none;
+  color:#2c3e50;
+}
+footer .green:hover{
+  color:#18bc9c;
+}
+.final{
+  background-color: #1a252f;
+  color:white;
 }
