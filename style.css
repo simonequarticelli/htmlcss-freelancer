@@ -40,11 +40,16 @@ nav{
 hr{
   width:80px;
   display: inline-block;
+  border-bottom:5px solid white;
+  margin-bottom: 15px;
 }
 .portfolio img{
   width: 100%;
   height: auto;
   margin-top:30px;
+}
+.portfolio hr{
+  border-bottom:5px solid #2c3e50;
 }
 .portfolio h1,
 .contact h1{
@@ -87,4 +92,7 @@ input{
   border-top:none;
   border-left:none;
   border-right:none;
+}
+.contact hr{
+  border-bottom:5px solid #2c3e50;
 }
